@@ -136,8 +136,7 @@ int object_write(ObjectType type, const void *data, size_t len, ObjectID *id_out
 
 // Defined in index.c — forward declared here to avoid header dependency
 // when building test_tree (which doesn't link index.o)
-struct Index;
-int index_load(struct Index *index);
+
 
 #include "index.h"
 
